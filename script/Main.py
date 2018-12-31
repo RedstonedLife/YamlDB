@@ -43,10 +43,5 @@ class database():
         
         
 
-
-database = database("data.yml")
-test3 = {"Test3":{"Cash":"100"}}
-database.dump(test3)
-database.current_file()
-print("Worked!")
+ 
 
